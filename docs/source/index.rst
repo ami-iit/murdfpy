@@ -1,8 +1,8 @@
 .. _root:
 
-Urdfpy Documentation
+murdfpy Documentation
 ====================
-Urdfpy is a simple pure-Python library for loading, manipulating, and exporting
+murdfpy is a simple pure-Python library for loading, manipulating, and exporting
 URDF files and robot specifications. For example, here's a rendering of a UR5
 robot moving around after being loaded by this library.
 

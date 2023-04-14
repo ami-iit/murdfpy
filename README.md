@@ -1,27 +1,20 @@
-# Urdfpy
+# murdfpy
 
-[![Build Status](https://travis-ci.org/mmatl/urdfpy.svg?branch=master)](https://travis-ci.org/mmatl/urdfpy)
-[![Documentation Status](https://readthedocs.org/projects/urdfpy/badge/?version=latest)](https://urdfpy.readthedocs.io/en/latest/?badge=latest)
-[![Coverage Status](https://coveralls.io/repos/github/mmatl/urdfpy/badge.svg?branch=master)](https://coveralls.io/github/mmatl/urdfpy?branch=master)
-[![PyPI version](https://badge.fury.io/py/urdfpy.svg)](https://badge.fury.io/py/urdfpy)
+[![PyPI version](https://badge.fury.io/py/murdfpy.svg)](https://badge.fury.io/py/murdfpy)
 
-Urdfpy is a simple and easy-to-use library for loading, manipulating, saving,
+murdfpy is a simple and easy-to-use library for loading, manipulating, saving,
 and visualizing URDF files.
 
-Extensive API documentation is provided [here](https://urdfpy.readthedocs.io/en/latest/).
+**Note: murdfpy is a friendly mantainance fork or [urdfpy](https://github.com/mmatl/urdfpy). The name stands for M(antained) urdfpy. Whenever the urdfpy mantainers return active, we will be happy to redirect this repo to urdfpy.**
 
 <p float="left">
-  <img src="https://github.com/mmatl/urdfpy/blob/master/docs/source/_static/robotiq.gif?raw=true" alt="GIF of Viewer" width="300"/>
-  <img src="https://github.com/mmatl/urdfpy/blob/master/docs/source/_static/ur5.gif?raw=true" alt="GIF of Viewer" width="300"/>
+  <img src="https://github.com/ami-iit/murdfpy/blob/master/docs/source/_static/robotiq.gif?raw=true" alt="GIF of Viewer" width="300"/>
+  <img src="https://github.com/ami-iit/murdfpy/blob/master/docs/source/_static/ur5.gif?raw=true" alt="GIF of Viewer" width="300"/>
 </p>
 
 ## Installation
-You can install urdfpy directly from pip.
+You can install murdfpy directly from pip.
 
 ```bash
-pip install urdfpy
+pip install murdfpy
 ```
-
-## User Guide
-Please see the user guide [here](https://urdfpy.readthedocs.io/en/latest/examples/index.html) for
-more information.
