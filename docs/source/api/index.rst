@@ -3,7 +3,7 @@
 API Reference
 =============
 
-.. automodapi:: urdfpy
+.. automodapi:: murdfpy
    :no-inheritance-diagram:
    :no-main-docstr:
    :no-heading:

@@ -1,7 +1,7 @@
 import numpy as np
 import trimesh.transformations as tfs
 
-from urdfpy import (rpy_to_matrix, matrix_to_rpy, matrix_to_xyz_rpy,
+from murdfpy import (rpy_to_matrix, matrix_to_rpy, matrix_to_xyz_rpy,
                     xyz_rpy_to_matrix)
 
 

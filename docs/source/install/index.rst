@@ -10,7 +10,7 @@ following command:
 
 .. code-block:: bash
 
-   pip install urdfpy
+   pip install murdfpy
 
 Installing in Development Mode
 ------------------------------

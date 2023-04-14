@@ -29,17 +29,19 @@ docs_requirements = [
     'sphinx-automodapi'  # For generating nice tables
 ]
 
-exec(open('urdfpy/version.py').read())
+exec(open('murdfpy/version.py').read())
 
 setup(
-    name='urdfpy',
+    name='murdfpy',
     version=__version__,
     description='URDF parser and manipulator for Python',
     long_description='URDF parser and manipulator for Python',
     author='Matthew Matl',
     author_email='matthewcmatl@gmail.com',
+    mantainer='Silvio Traversaro',
+    mantainer_email='silvio.traversaro@iit.it',
     license='MIT License',
-    url='https://github.com/mmatl/urdfpy',
+    url='https://github.com/ami-iit/murdfpy',
     keywords='robotics ros urdf robots parser',
     classifiers=[
         'Development Status :: 4 - Beta',
@@ -51,7 +53,7 @@ setup(
         'Natural Language :: English',
         'Topic :: Scientific/Engineering'
     ],
-    packages=['urdfpy'],
+    packages=['murdfpy'],
     setup_requires = requirements,
     install_requires=requirements,
     extras_require={

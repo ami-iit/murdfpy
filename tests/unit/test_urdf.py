@@ -2,10 +2,10 @@ import numpy as np
 import pytest
 import trimesh
 
-from urdfpy import URDF, Link, Joint, Transmission, Material
+from murdfpy import URDF, Link, Joint, Transmission, Material
 
 
-def test_urdfpy(tmpdir):
+def test_murdfpy(tmpdir):
     outfn = tmpdir.mkdir('urdf').join('ur5.urdf').strpath
 
     # Load

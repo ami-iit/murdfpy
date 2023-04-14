@@ -12,7 +12,7 @@ install:
 - pip install pytest pytest-cov coveralls
 
 script:
-- pytest --cov=urdfpy tests
+- pytest --cov=murdfpy tests
 
 after_success:
 - coveralls || true
