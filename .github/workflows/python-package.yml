@@ -3,6 +3,10 @@ name: Python package
 on:
   push:
   pull_request:
+  schedule:
+  # * is a special character in YAML so you have to quote this string
+  # Execute a "weekly" build at 0 AM UTC on Mondays
+  - cron:  '0 0 * * MON'
 
 jobs:
   build:
